@@ -1,0 +1,94 @@
+html{
+  background-color: black;
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  border-bottom: 1px solid seashell;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  z-index: 1;
+  background-color: black;
+}
+
+.logo{
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.logo img{
+  padding-left: 10px;
+  height: 50px;
+}
+
+nav span{
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+.maincontent{
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+h2, h3, h4{
+  margin: 0px;
+  padding: 10px;
+}
+
+#mission {
+  background-image: url('./img-mission-background.jpg');
+  height: 700px;
+  width: 1200px;
+}
+
+.missiontext{
+  width: 100%;
+  background-color: black;
+  margin: auto;
+}
+
+#featured{
+  width: 1000px;
+  height: 700px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.tea{
+  padding: 5px;
+  display: block;
+}
+
+.tea img{
+  width: 300px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
+
+.tea span{
+  padding: 5px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+}
